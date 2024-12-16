@@ -1,0 +1,383 @@
+
+.jumbo-secteur {
+    background-image: url('/images/jumboo-secteur.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.jumbo-secteur h1 {
+    padding-top: 233px;
+    font-family: 'poppins',sans-serif;
+    padding-bottom: 6px;
+}
+
+.jumbo-secteur p {
+    font-family: 'inter',sans-serif;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.down {
+    border: 1px solid rgba(255, 255, 255, 0.413);
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    padding-top: 74px;
+}
+
+
+.droit {
+    background-image: url('/images/service1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.Arbitrage {
+    background-image: url('/images/actu6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.Banque {
+    background-image: url('/images/actu7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.droit-social {
+    background-image: url('/images/actu1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.Infrastructures{
+    background-image: url('/images/service3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.Immobilier {
+    background-image: url('/images/service4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.OHADA {
+    background-image: url('/images/actu5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    border-radius: 8px;
+    height: 268px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding:25px;
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F5F5F5;
+}
+
+.ref-title h2 {
+    padding-top: 100px;
+    padding-bottom: 37px;
+    font-family: 'poppins',sans-serif;
+}
+
+.ref-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.breadcrumb {
+    background-color: #EAF8FF;
+    margin-top: 70px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.bread-text {
+    display: flex;
+    gap: 10px;
+    font-family: 'poppins',sans-serif;
+    align-items: center;
+}
+
+#bread-acceuil {
+    color: #005680;
+}
+
+#bread-contact {
+    opacity: 50%;
+}
+
+.envoie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    gap: 13px;
+}
+
+.prenom {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border: 1px solid #CADEE8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.prenom input {
+    border: none;
+}
+
+.prenom input:focus {
+    outline: none;
+}
+
+.prenom ::placeholder {
+    color: #005680;
+}
+
+.nom {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border: 1px solid #CADEE8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.nom input {
+    border: none;
+}
+
+.nom ::placeholder {
+    color: #005680;
+}
+
+.nom input:focus {
+    outline: none;
+}
+
+.emails {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border: 1px solid #CADEE8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.emails input{
+    border: none;
+}
+
+.emails input:focus {
+    outline: none;
+}
+
+.emails ::placeholder {
+    color: #005680;
+}
+
+.object {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    border: 1px solid #CADEE8;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.object input {
+    border: none;
+}
+
+.object ::placeholder {
+    color: #005680;
+}
+
+.object input:focus {
+    outline: none;
+}
+
+.message {
+    width: 202%;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CADEE8;
+    padding: 10px;
+    border-radius: 8px;
+    height: 305px;
+}
+
+.message textarea {
+    border: none;
+}
+
+.message textarea:focus {
+    outline: none;
+}
+
+.message ::placeholder {
+    color: #005680;
+}
+
+.form {
+    padding-top: 70px;
+    padding-bottom: 46px;
+}
+
+#send {
+    text-decoration: none;
+    color: black;
+    margin-top: 17px;
+    background-color: #6ECFFF;
+    padding: 16px 36px;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.form h2 {
+    padding-bottom: 32px;
+    font-family: 'poppins',sans-serif;
+}
+
+.envoie label {
+    font-family: 'inter',sans-serif;
+    font-size: 14px;
+}
+
+.form-contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.information {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 21px;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mapp {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    color: #005680;
+    padding-top: 5px;
+    padding-bottom: 12px;
+}
+
+.dakar {
+    padding-bottom: 50px;
+}
+
+.dakar p {
+    color: #595959;
+}
+
+.abidjan {
+    padding-top: 20px;
+}
+
+.abidjan p{
+    padding-bottom: 10px;
+    color: #595959;
+}
+
+.carte {
+    background-image: url('/images/map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 509px;
+}
+
+.carte h2 {
+    color: white;
+    opacity: 0%;
+}

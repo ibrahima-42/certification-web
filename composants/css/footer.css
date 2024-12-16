@@ -1,0 +1,146 @@
+.footer .container{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 90px;
+}
+
+.footer {
+    background-image: url('/images/imageFooter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px;
+}
+
+.reseau {
+    display: flex;
+    gap: 35px;
+    padding-top: 13px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail h3 {
+    padding-top: 48px;
+    font-family: 'poppins',sans-serif;
+}
+
+.mail input {
+    background-image: url('/images/sms.png');
+    background-position: center left 16px;
+    background-repeat: no-repeat;
+    width: 340px;
+    height: 68px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.mail button {
+    color: white;
+    width: 340px;
+    height: 68px;
+    background-color: #005680;
+    border: none;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.menu-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-top: 5px;
+}
+
+.menu-footer  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #595959a4;
+}
+
+.content-two {
+    padding-top: 37px;
+}
+
+.content-two h3 {
+    color: #00334D;
+}
+
+.content-one h3 {
+    color: #00334D;
+    padding-bottom: 13px;
+}
+
+.content-one p {
+    color: #595959a4;
+}
+
+.map {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    color: #005680;
+    padding-top: 37px;
+    padding-bottom: 12px;
+}
+
+.phone {
+    gap: 10px;
+    padding-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    color: #005680;
+    padding-bottom: 12px;
+}
+
+.email {
+    display: flex;
+    align-items: flex-start;
+    color: #005680;
+    padding-bottom: 12px;
+    gap: 10px;
+}
+
+.notif {
+    gap: 10px;
+    padding-top: 12px;
+    display: flex;
+    align-items: flex-start;
+    color: #005680;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mailer {
+    display: flex;
+    flex-direction: column;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.mention {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-end .container {
+    display: flex;
+    justify-content: space-between;
+}
+
