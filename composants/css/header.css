@@ -10,6 +10,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 9999;
 }
 
 #logo {
@@ -62,4 +63,8 @@ nav ul {
 .header.active {
     background-color: white;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header.active #sous-menu li a {
+    color: #005680;
 }

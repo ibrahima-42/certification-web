@@ -269,12 +269,12 @@
 
     <script>
         $(document).ready(function(){
-            $(window).bind('scroll', function(){
+            $(window).on('scroll', function(){
                 var gap = 50;
         if($(window).scrollTop() > gap){
-            $('header').addClass('active');
+            $('.header').addClass('active');
         }else{
-            $('header').removeClass('active');
+            $('.header').removeClass('active');
         }
             });
         });
